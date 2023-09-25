@@ -1,5 +1,15 @@
 # Curso de Node js
 
-# Creacion del primer archivo
+# Creacion de primeros archivos
 
 index.js
+sum.js
+
+# Creacion de CARPETA CJS
+
+colocar archivos index.js y sum.js dentro de la carpeta
+
+# Creacion de archivos ESmodules
+
+index.mjs
+sum.mjs
