@@ -13,3 +13,8 @@ colocar archivos index.js y sum.js dentro de la carpeta
 
 index.mjs
 sum.mjs
+
+# nodemon 
+
+# express
+ npm install express -E
