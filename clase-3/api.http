@@ -1,0 +1,11 @@
+### Recuperar libros
+
+GET http://localhost:1234/lovecraft
+
+
+### Recuperar un libro por id
+GET http://localhost:1234/lovecraft/1
+
+
+### Recuperar todos los libros por un genero
+http://localhost:1234/lovecraft/biblioteca?titulo=Dagon
