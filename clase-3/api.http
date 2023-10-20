@@ -8,4 +8,17 @@ GET http://localhost:1234/lovecraft/1
 
 
 ### Recuperar todos los libros por un genero
-http://localhost:1234/lovecraft/biblioteca?titulo=Dagon
+http://localhost:1234/lovecraft?genero=Terror
+
+
+### Crear un libro con POST
+POST  http://localhost:1234/lovecraft
+Content-Type: application/json
+
+    {
+      "titulo": "En las montañas de la locura",
+      "año": 1936,
+      "descripcion": "Un grupo de cientificos realiza una expedicion hacia las montañas mas altas del mundo",
+      "foto_de_portada": "https://imag.lecturalia.com/blog/images/2014/01/id-23304-sombra.jpg",
+      "genero": ["Horror-Cosmico", "Terror"] 
+    }
